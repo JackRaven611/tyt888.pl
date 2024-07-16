@@ -1,0 +1,24 @@
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/ 
+
+*{
+  list-style: none;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #090C02;
+  font-size: 1rem;
+}
+
+body {
+  background-color: #FBFFFE;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
