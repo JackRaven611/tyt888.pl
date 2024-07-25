@@ -41,15 +41,6 @@ export const Nav = () => {
 					<li>
 						<Link
 							className='navButtons'
-							to='/about#'
-							onClick={toggleBurgerNav}
-						>
-							{nav.navBtnAbout}
-						</Link>
-					</li>
-					<li>
-						<Link
-							className='navButtons'
 							to='/contact#'
 							onClick={toggleBurgerNav}
 						>
