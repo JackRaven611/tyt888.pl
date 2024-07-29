@@ -5,15 +5,5 @@ import { TEXTS } from "../../../Consts/Content";
 export const AntennaImg = ({ series, type, size }) => {
 	const product = TEXTS.products.wire[series][type];
 
-	// const img = () => {
-	// 	if (series === "redFed") {
-	// 		return redFed[type + size];
-	// 	} else if (series === "redDipole") {
-	// 		return redDipole[type];
-	// 	} else {
-	// 		return redWire[type + size];
-	// 	}
-	// };
-
 	return <img src='' alt={product.model} loading='lazy' />;
 };

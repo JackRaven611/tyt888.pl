@@ -1,6 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { ProductPageStyled } from ".";
-import { VaraintPanel } from "./variantPanel/variantPanel";
 import { AntennaImg } from "./antennaImg";
 import { Breadcrumbs } from "../../breadcrumbs/breadcrumbs";
 import { TEXTS } from "../../../Consts/Content";
@@ -8,7 +7,7 @@ import { TEXTS } from "../../../Consts/Content";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ProductPage = ({ series, type, size }) => {
-	const product = TEXTS.products.wire[series][type];
+	const product = TEXTS.products;
 	const common = TEXTS.products.common;
 
 	return (
@@ -20,7 +19,7 @@ export const ProductPage = ({ series, type, size }) => {
 						name: TEXTS.breadcrumbs.products,
 					},
 					{
-						link: "/products/wire#",
+						link: "/products/profesional#",
 						name: TEXTS.breadcrumbs.wire,
 					},
 					{
@@ -41,7 +40,6 @@ export const ProductPage = ({ series, type, size }) => {
 									? product[size].model
 									: product.model}
 							</h2>
-							<VaraintPanel series={series} />
 							<div className='descriptionWrapper'>
 								<p>
 									{size === "max"

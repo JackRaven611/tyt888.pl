@@ -12,18 +12,18 @@ export const InfoBox = () => {
 			<div>
 				<BoxArticle
 					imgUrl=''
-					articleText={main.handmadeText}
-					articleTitle={main.handmadeTitle}
+					articleText=''
+					articleTitle=''
 				></BoxArticle>
 				<BoxArticle
 					imgUrl=''
-					articleText={main.designText}
-					articleTitle={main.designTitle}
+					articleText=''
+					articleTitle=''
 				></BoxArticle>
 				<BoxArticle
 					imgUrl=''
-					articleText={main.effectiveness}
-					articleTitle={main.effectivenessTitle}
+					articleText=''
+					articleTitle=''
 				></BoxArticle>
 			</div>
 		</InfoBoxStyled>

@@ -14,7 +14,7 @@ export const ContactSection = () => {
 				paths={[
 					{
 						link: "",
-						name: `${TEXTS.breadcrumbs.contact}`,
+						name: ``,
 					},
 				]}
 			/>

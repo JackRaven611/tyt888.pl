@@ -18,9 +18,7 @@ export const Dropdown = ({ toggleBurgerNav }) => {
 					className=' navButtons'
 					to='/products/wire#'
 					onClick={toggleBurgerNav}
-				>
-					{TEXTS.products.wire.common.title}
-				</Link>
+				></Link>
 				<Link
 					className='navButtons'
 					to='/products/vertical#'
@@ -30,9 +28,7 @@ export const Dropdown = ({ toggleBurgerNav }) => {
 					className='navButtons'
 					to='/products/accessories#'
 					onClick={toggleBurgerNav}
-				>
-					{TEXTS.products.accessories.common.title}
-				</Link>
+				></Link>
 			</div>
 		</div>
 	);
