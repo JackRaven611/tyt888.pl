@@ -61,8 +61,8 @@ export const TEXTS = {
 	breadcrumbs: {
 		products: "Produkty",
 		accessories: "Akcesoria",
-		wire: "Amatorskie",
-		vertical: "Profejsonalne",
+		amateur: "Amatorskie",
+		professional: "Profejsonalne",
 		blog: "Blog",
 		about: "O nas",
 		contact: "Kontakt",

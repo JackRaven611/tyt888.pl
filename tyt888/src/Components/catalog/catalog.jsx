@@ -1,5 +1,4 @@
 import { CatalogStyled } from ".";
-import { useEffect, useContext } from "react";
 import { Product } from "./product/product";
 import { Breadcrumbs } from "../breadcrumbs/breadcrumbs";
 import { TEXTS } from "../../Consts/Content";
@@ -17,25 +16,54 @@ export const Catalog = ({ type }) => {
 				<Product
 					type='professional'
 					series='md9600'
-					link={`/products/profesional/`}
-					image=''
+					link={`/products/profesional/md9600`}
+				/>
+				<Product
+					type='professional'
+					series='th9000d'
+					link={`/products/profesional/th9000d`}
+				/>
+				<Product
+					type='professional'
+					series='tcf1'
+					link={`/products/profesional/tcf1`}
+				/>
+				<Product
+					type='professional'
+					series='tc999'
+					link={`/products/profesional/tc999`}
+				/>
+				<Product
+					type='professional'
+					series='md680'
+					link={`/products/profesional/md680`}
+				/>
+				<Product
+					type='professional'
+					series='md390p'
+					link={`/products/profesional/md390p`}
+				/>
+				<Product
+					type='professional'
+					series='md750'
+					link={`/products/profesional/md750`}
 				/>
 			</li>
 		</>
 	);
 
-	const accessories = (
+	const amateur = (
 		<>
 			<li className='headerWrapper'>
-				<h2>{}</h2>
-				<p>{}</p>
+				<h2>{TEXTS.products.amateur.common.title}</h2>
+				<p>{TEXTS.products.amateur.common.title}</p>
 			</li>
 			<li>
-				<Product type='' series='' link='' image='' />
-				<Product type='' series='' link='' image='' />
-				<Product type='' series='' link='' image='' />
-				<Product type='' series='' link='' image='' />
-				<Product type='' series='' link='' image='' />
+				<Product
+					type='amateur'
+					series='md9600'
+					link={`/products/amateur/md9600`}
+				/>
 			</li>
 		</>
 	);
@@ -43,14 +71,13 @@ export const Catalog = ({ type }) => {
 	const handleType = () => {
 		if (type === "professional") {
 			return <>{professional}</>;
-		} else if (type === "accessories") {
-			return accessories;
+		} else if (type === "amateur") {
+			return <>{amateur}</>;
 		} else {
 			return (
 				<>
 					{professional}
-
-					{accessories}
+					{amateur}
 				</>
 			);
 		}
@@ -61,29 +88,29 @@ export const Catalog = ({ type }) => {
 			return [
 				{
 					link: "/products#",
-					name: "",
+					name: TEXTS.breadcrumbs.products,
 				},
 				{
-					link: "",
-					name: "",
+					link: "/products/professional#",
+					name: TEXTS.breadcrumbs.professional,
 				},
 			];
 		} else if (type === "accessories") {
 			return [
 				{
 					link: "/products#",
-					name: "",
+					name: "Produkty",
 				},
 				{
-					link: "",
-					name: "",
+					link: "/products/amateur#",
+					name: TEXTS.breadcrumbs.amateur,
 				},
 			];
 		} else {
 			return [
 				{
-					link: "",
-					name: "",
+					link: "/products#",
+					name: TEXTS.breadcrumbs.products,
 				},
 			];
 		}

@@ -1,6 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { ProductPageStyled } from ".";
-import { AntennaImg } from "./antennaImg";
+import { RadioImg } from "./antennaImg";
 import { Breadcrumbs } from "../../breadcrumbs/breadcrumbs";
 import { TEXTS } from "../../../Consts/Content";
 
@@ -33,7 +33,7 @@ export const ProductPage = ({ series, type, size }) => {
 			<ProductPageStyled>
 				<div className='wrapper'>
 					<div className='selectorkWrapper'>
-						<AntennaImg series={series} type={type} size={size} />
+						<RadioImg series={series} type={type} size={size} />
 						<aside>
 							<h2>
 								{product[size]
@@ -79,17 +79,9 @@ export const ProductPage = ({ series, type, size }) => {
 					</div>
 					<div className='infoWrapper'>
 						<div>
-							<h3>
-								{
-									TEXTS.products.wire[series].common
-										.descriptionPageTitle
-								}
-							</h3>
+							<h3>{}</h3>
 							<p>
-								{
-									TEXTS.products.wire[series].common
-										.descriptionPage
-								}
+								{}
 								<br />
 								<br />
 								{TEXTS.common.disclaimer}
