@@ -32,8 +32,22 @@ function App() {
 					<Route path='/products' element={<Products />}></Route>
 					<Route
 						path='/products/professional'
-						element={<ProductPanel />}
-						series='professional'
+						element={<Products type='professional' />}
+					></Route>
+					<Route
+						path='/products/amateur'
+						element={<Products type='amateur' />}
+					></Route>
+
+					<Route
+						path='/products/professional/md9600'
+						element={
+							<ProductPanel type='professional' series='md9600' />
+						}
+					></Route>
+					<Route
+						path='/products/amateur/*'
+						element={<ProductPanel type='amateur' />}
 					></Route>
 
 					<Route path='/blog' element={<Blog />} />

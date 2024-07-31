@@ -6,6 +6,8 @@ import { TEXTS } from "../../Consts/Content";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const Catalog = ({ type }) => {
+	console.log(type);
+
 	const professional = (
 		<>
 			<li className='headerWrapper'>
@@ -16,37 +18,37 @@ export const Catalog = ({ type }) => {
 				<Product
 					type='professional'
 					series='md9600'
-					link={`/products/profesional/md9600`}
+					link={`/products/professional/md9600`}
 				/>
 				<Product
 					type='professional'
 					series='th9000d'
-					link={`/products/profesional/th9000d`}
+					link={`/products/professional/th9000d`}
 				/>
 				<Product
 					type='professional'
 					series='tcf1'
-					link={`/products/profesional/tcf1`}
+					link={`/products/professional/tcf1`}
 				/>
 				<Product
 					type='professional'
 					series='tc999'
-					link={`/products/profesional/tc999`}
+					link={`/products/professional/tc999`}
 				/>
 				<Product
 					type='professional'
 					series='md680'
-					link={`/products/profesional/md680`}
+					link={`/products/professional/md680`}
 				/>
 				<Product
 					type='professional'
 					series='md390p'
-					link={`/products/profesional/md390p`}
+					link={`/products/professional/md390p`}
 				/>
 				<Product
 					type='professional'
 					series='md750'
-					link={`/products/profesional/md750`}
+					link={`/products/professional/md750`}
 				/>
 			</li>
 		</>
@@ -95,7 +97,7 @@ export const Catalog = ({ type }) => {
 					name: TEXTS.breadcrumbs.professional,
 				},
 			];
-		} else if (type === "accessories") {
+		} else if (type === "amateur") {
 			return [
 				{
 					link: "/products#",
