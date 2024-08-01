@@ -131,12 +131,10 @@ export const TEXTS = {
 				title: "TH-9000D",
 				description:
 					"TH-9000D to mobilny jedno zakresowy radiotelefon przewoźny dużej mocy (model VHF: 60W, model UHF: 45W).",
-				linkV1Title:
-					"https://www.ercomer.pl/pl/p/TYT-TH-9000D-VHF/1484",
-				linkV2Title:
-					"https://www.ercomer.pl/pl/p/TYT-TH-9000D-UHF/1485",
-				linkV1: "VHF",
-				linkV2: "UHF",
+				linkV1Title: "VHF",
+				linkV2Title: "UHF",
+				linkV1: "https://www.ercomer.pl/pl/p/TYT-TH-9000D-VHF/1484",
+				linkV2: "https://www.ercomer.pl/pl/p/TYT-TH-9000D-UHF/1485",
 				functions: [
 					"Obsługa tonów CTCSS/DCS/1750Hz/DTMF/2-Tone/5-Tone",
 					"Głosowe zapowiedzi",

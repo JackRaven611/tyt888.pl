@@ -20,7 +20,7 @@ export const ProductPage = ({ series, type }) => {
 					},
 					{
 						link: "/products/professional#",
-						name: TEXTS.breadcrumbs.wire,
+						name: TEXTS.breadcrumbs[type],
 					},
 					{
 						link: "",

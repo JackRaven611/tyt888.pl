@@ -46,6 +46,45 @@ function App() {
 						}
 					></Route>
 					<Route
+						path='/products/professional/th9000d'
+						element={
+							<ProductPanel
+								type='professional'
+								series='th9000d'
+							/>
+						}
+					></Route>
+					<Route
+						path='/products/professional/tcf1'
+						element={
+							<ProductPanel type='professional' series='tcf1' />
+						}
+					></Route>
+					<Route
+						path='/products/professional/tc999'
+						element={
+							<ProductPanel type='professional' series='tc999' />
+						}
+					></Route>
+					<Route
+						path='/products/professional/md680'
+						element={
+							<ProductPanel type='professional' series='md680' />
+						}
+					></Route>
+					<Route
+						path='/products/professional/md390p'
+						element={
+							<ProductPanel type='professional' series='md390p' />
+						}
+					></Route>
+					<Route
+						path='/products/professional/md750'
+						element={
+							<ProductPanel type='professional' series='md750' />
+						}
+					></Route>
+					<Route
 						path='/products/amateur/*'
 						element={<ProductPanel type='amateur' />}
 					></Route>
