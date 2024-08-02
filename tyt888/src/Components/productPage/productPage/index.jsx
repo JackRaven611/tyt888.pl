@@ -33,7 +33,6 @@ export const ProductPageStyled = styled.section`
 			img {
 				width: 47.5%;
 				min-height: 35rem;
-				max-height: 35rem;
 				object-fit: cover;
 				border-radius: 0.5rem;
 			}

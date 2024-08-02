@@ -35,9 +35,8 @@ export const ProductStyled = styled.article`
 	}
 
 	img {
-		width: 100%;
 		height: 27.5rem;
-		object-fit: cover;
+
 		transition-duration: 0.2s;
 	}
 

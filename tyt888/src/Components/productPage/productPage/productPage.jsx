@@ -46,17 +46,20 @@ export const ProductPage = ({ series, type }) => {
 					</div>
 					<div className='infoWrapper'>
 						<div>
-							<h3>{}</h3>
-							<p>
-								{}
-								<br />
-								<br />
-								{TEXTS.common.disclaimer}
-							</p>
+							<h3>{common.functionsTitle}</h3>
+							<ul>
+								{product.functions.map((func) => {
+									return <li>{func}</li>;
+								})}
+							</ul>
 						</div>
 						<div>
-							<h3>{common.techSpec}</h3>
-							<ul></ul>
+							<h3>{common.specTitle}</h3>
+							<ul>
+								{product.spec.map((s) => {
+									return <li>{s}</li>;
+								})}
+							</ul>
 						</div>
 					</div>
 				</div>

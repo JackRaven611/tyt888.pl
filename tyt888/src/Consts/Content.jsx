@@ -307,12 +307,10 @@ export const TEXTS = {
 				],
 			},
 			md790: {
-				title: "",
-				description: "",
-				linkV1Title: "",
-				linkV2Title: "",
+				title: "MD-790",
+				description: "TYT MD-790",
+				linkV1Title: "Sklep",
 				linkV1: "",
-				linkV2: "",
 				functions: [
 					"",
 					"",

@@ -50,6 +50,11 @@ export const Catalog = ({ type }) => {
 					series='md750'
 					link={`/products/professional/md750`}
 				/>
+				<Product
+					type='professional'
+					series='md790'
+					link={`/products/professional/md790`}
+				/>
 			</li>
 		</>
 	);
@@ -65,6 +70,41 @@ export const Catalog = ({ type }) => {
 					type='amateur'
 					series='md9600'
 					link={`/products/amateur/md9600`}
+				/>
+				<Product
+					type='amateur'
+					series='th8600'
+					link={`/products/amateur/th8600`}
+				/>
+				<Product
+					type='amateur'
+					series='thuv88'
+					link={`/products/amateur/thuv88`}
+				/>
+				<Product
+					type='amateur'
+					series='thuv99'
+					link={`/products/amateur/thuv99`}
+				/>
+				<Product
+					type='amateur'
+					series='md750'
+					link={`/products/amateur/md750`}
+				/>
+				<Product
+					type='amateur'
+					series='md380'
+					link={`/products/amateur/md380`}
+				/>
+				<Product
+					type='amateur'
+					series='md390'
+					link={`/products/amateur/md390`}
+				/>
+				<Product
+					type='amateur'
+					series='md390p'
+					link={`/products/amateur/md390p`}
 				/>
 			</li>
 		</>

@@ -9,6 +9,12 @@ import tcf1 from "../../../img/tcf1.webp";
 import tc999 from "../../../img/tc999.webp";
 import th9000d from "../../../img/th9000dpro.webp";
 import md390p from "../../../img/mduv390.webp";
+import md790 from "../../../img/md790.webp";
+import thuv99 from "../../../img/thuv99.webp";
+import th8600 from "../../../img/th8600.webp";
+import thuv88 from "../../../img/thuv88.webp";
+import md380 from "../../../img/mduv380.webp";
+import md390 from "../../../img/mduv390.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -21,6 +27,12 @@ export const Product = ({ type, link, series }) => {
 		md680: md680,
 		md390p: md390p,
 		md750: md750,
+		md790: md790,
+		thuv99: thuv99,
+		th8600: th8600,
+		thuv88: thuv88,
+		md380: md380,
+		md390: md390,
 	};
 
 	return (
