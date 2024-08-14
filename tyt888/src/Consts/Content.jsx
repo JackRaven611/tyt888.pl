@@ -64,7 +64,6 @@ export const TEXTS = {
 		amateur: "Amatorskie",
 		professional: "Profejsonalne",
 		blog: "Blog",
-		about: "O nas",
 		contact: "Kontakt",
 	},
 
@@ -467,7 +466,7 @@ export const TEXTS = {
 				],
 			},
 			thuv99: {
-				title: "",
+				title: "TH-UV99",
 				description: "",
 				linkV1Title: "",
 				linkV2Title: "",
@@ -599,7 +598,7 @@ export const TEXTS = {
 				],
 			},
 			md390: {
-				title: "MD-UV390 GPS",
+				title: "MD-UV390",
 				description:
 					"Ręczny radiotelefon TYT MD-UV390 wodoszczelny IP67 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II. Radiotelefon jest wodoszczelny i posiada wbudowany GPS.",
 				linkV1Title: "Sklep",

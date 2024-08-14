@@ -85,8 +85,46 @@ function App() {
 						}
 					></Route>
 					<Route
-						path='/products/amateur/*'
-						element={<ProductPanel type='amateur' />}
+						path='/products/amateur/md9600'
+						element={
+							<ProductPanel type='amateur' series='md9600' />
+						}
+					></Route>
+					<Route
+						path='/products/amateur/th8600'
+						element={
+							<ProductPanel type='amateur' series='th8600' />
+						}
+					></Route>
+					<Route
+						path='/products/amateur/thuv88'
+						element={
+							<ProductPanel type='amateur' series='thuv88' />
+						}
+					></Route>
+					<Route
+						path='/products/amateur/thuv99'
+						element={
+							<ProductPanel type='amateur' series='thuv99' />
+						}
+					></Route>
+					<Route
+						path='/products/amateur/md750'
+						element={<ProductPanel type='amateur' series='md750' />}
+					></Route>
+					<Route
+						path='/products/amateur/md380'
+						element={<ProductPanel type='amateur' series='md380' />}
+					></Route>
+					<Route
+						path='/products/amateur/md390'
+						element={<ProductPanel type='amateur' series='md390' />}
+					></Route>
+					<Route
+						path='/products/amateur/md390p'
+						element={
+							<ProductPanel type='amateur' series='md390p' />
+						}
 					></Route>
 
 					<Route path='/blog' element={<Blog />} />

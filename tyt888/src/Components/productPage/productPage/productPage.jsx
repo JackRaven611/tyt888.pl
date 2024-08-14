@@ -19,7 +19,7 @@ export const ProductPage = ({ series, type }) => {
 						name: TEXTS.breadcrumbs.products,
 					},
 					{
-						link: "/products/professional#",
+						link: `/products/${type}#`,
 						name: TEXTS.breadcrumbs[type],
 					},
 					{
@@ -37,9 +37,20 @@ export const ProductPage = ({ series, type }) => {
 							<div className='descriptionWrapper'>
 								<p>{product.description}</p>
 								<div className='linkWrapper'>
-									<Link to={product.linkV1}>
-										{common.linkTitle}
-									</Link>
+									{product.linkV2 ? (
+										<>
+											<Link to={product.linkV1}>
+												{product.linkV1Title}
+											</Link>
+											<Link to={product.linkV2}>
+												{product.linkV2Title}
+											</Link>
+										</>
+									) : (
+										<Link to={product.linkV1}>
+											{product.linkV1Title}
+										</Link>
+									)}
 								</div>
 							</div>
 						</aside>
@@ -54,12 +65,16 @@ export const ProductPage = ({ series, type }) => {
 							</ul>
 						</div>
 						<div>
-							<h3>{common.specTitle}</h3>
-							<ul>
-								{product.spec.map((s) => {
-									return <li>{s}</li>;
-								})}
-							</ul>
+							{product.spec ? (
+								<>
+									<h3>{common.specTitle}</h3>
+									<ul>
+										{product.spec.map((s) => {
+											return <li>{s}</li>;
+										})}
+									</ul>
+								</>
+							) : null}
 						</div>
 					</div>
 				</div>

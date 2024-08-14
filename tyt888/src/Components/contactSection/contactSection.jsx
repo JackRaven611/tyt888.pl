@@ -13,14 +13,14 @@ export const ContactSection = () => {
 			<Breadcrumbs
 				paths={[
 					{
-						link: "",
-						name: ``,
+						link: "/contact#",
+						name: `${TEXTS.breadcrumbs.contact}`,
 					},
 				]}
 			/>
 			<ContactSectionStyled>
 				<article>
-					<img src='' alt='red antenna hd' loading='lazy' />
+					<img src='' alt='' loading='lazy' />
 
 					<div>
 						<h2>{TEXTS.footer.contactTitle}</h2>

@@ -65,7 +65,7 @@ export const NavStyled = styled.nav`
 		}
 
 		.desktopNav {
-			width: 70%;
+			width: 100%;
 			display: flex;
 			justify-content: flex-end;
 			gap: 1rem;
@@ -107,7 +107,7 @@ export const NavStyled = styled.nav`
 
 		.navButtonsDropdown {
 			top: 5rem;
-			width: 10.05%;
+			width: 12%;
 			padding: 0;
 			height: auto;
 			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
