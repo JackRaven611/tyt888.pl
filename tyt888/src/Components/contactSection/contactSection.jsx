@@ -1,6 +1,7 @@
 import { ContactSectionStyled } from ".";
 import { Breadcrumbs } from "../breadcrumbs/breadcrumbs";
 import { TEXTS } from "../../Consts/Content";
+import foto1 from "../../img/TYT_foto1.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -20,7 +21,7 @@ export const ContactSection = () => {
 			/>
 			<ContactSectionStyled>
 				<article>
-					<img src='' alt='' loading='lazy' />
+					<img src={foto1} alt='' loading='lazy' />
 
 					<div>
 						<h2>{TEXTS.footer.contactTitle}</h2>

@@ -39,15 +39,27 @@ export const ProductPage = ({ series, type }) => {
 								<div className='linkWrapper'>
 									{product.linkV2 ? (
 										<>
-											<Link to={product.linkV1}>
+											<Link
+												to={product.linkV1}
+												target='_blank'
+												rel='noopener noreferrer'
+											>
 												{product.linkV1Title}
 											</Link>
-											<Link to={product.linkV2}>
+											<Link
+												to={product.linkV2}
+												target='_blank'
+												rel='noopener noreferrer'
+											>
 												{product.linkV2Title}
 											</Link>
 										</>
 									) : (
-										<Link to={product.linkV1}>
+										<Link
+											to={product.linkV1}
+											target='_blank'
+											rel='noopener noreferrer'
+										>
 											{product.linkV1Title}
 										</Link>
 									)}
