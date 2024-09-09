@@ -1,6 +1,6 @@
 import { AboutBoxStyled } from ".";
 import { TEXTS } from "../../Consts/Content";
-import foto2 from "../../img/TYT_foto2.webp";
+import foto2 from "../../img/TYT_foto10.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

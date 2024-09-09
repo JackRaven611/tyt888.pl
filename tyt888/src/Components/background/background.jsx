@@ -9,7 +9,7 @@ export const Background = () => {
 
 	return (
 		<BackgroundStyled>
-			<img src='' alt='Background Antennas' loading='lazy' />
+			<img src='' alt='Background' loading='lazy' />
 			<ImgFadeStyled />
 			<header>
 				<h1>{main.header}</h1>

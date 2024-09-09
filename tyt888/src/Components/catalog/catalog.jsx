@@ -8,144 +8,131 @@ import { TEXTS } from "../../Consts/Content";
 export const Catalog = ({ type }) => {
 	console.log(type);
 
-	const professional = (
+	const DMR = (
 		<>
 			<li className='headerWrapper'>
-				<h2>{TEXTS.products.professional.common.title}</h2>
-				<p>{TEXTS.products.professional.common.title}</p>
+				<h2>{TEXTS.products.DMR.common.title}</h2>
+				<p>{TEXTS.products.DMR.common.title}</p>
 			</li>
 			<li>
 				<Product
-					type='professional'
+					type='DMR'
 					series='md9600'
-					link={`/products/professional/md9600`}
+					link={`/products/DMR/md9600`}
 				/>
+
 				<Product
-					type='professional'
-					series='th9000d'
-					link={`/products/professional/th9000d`}
-				/>
-				<Product
-					type='professional'
-					series='tcf1'
-					link={`/products/professional/tcf1`}
-				/>
-				<Product
-					type='professional'
-					series='tc999'
-					link={`/products/professional/tc999`}
-				/>
-				<Product
-					type='professional'
+					type='DMR'
 					series='md680'
-					link={`/products/professional/md680`}
+					link={`/products/DMR/md680`}
 				/>
 				<Product
-					type='professional'
+					type='DMR'
+					series='md380'
+					link={`/products/DMR/md380`}
+				/>
+				<Product
+					type='DMR'
+					series='md390'
+					link={`/products/DMR/md390`}
+				/>
+				<Product
+					type='DMR'
 					series='md390p'
-					link={`/products/professional/md390p`}
+					link={`/products/DMR/md390p`}
 				/>
+
 				<Product
-					type='professional'
+					type='DMR'
 					series='md750'
-					link={`/products/professional/md750`}
+					link={`/products/DMR/md750`}
 				/>
 				<Product
-					type='professional'
+					type='DMR'
 					series='md790'
-					link={`/products/professional/md790`}
+					link={`/products/DMR/md790`}
 				/>
 			</li>
 		</>
 	);
 
-	const amateur = (
+	const analog = (
 		<>
 			<li className='headerWrapper'>
-				<h2>{TEXTS.products.amateur.common.title}</h2>
-				<p>{TEXTS.products.amateur.common.title}</p>
+				<h2>{TEXTS.products.analog.common.title}</h2>
+				<p>{TEXTS.products.analog.common.title}</p>
 			</li>
 			<li>
 				<Product
-					type='amateur'
-					series='md9600'
-					link={`/products/amateur/md9600`}
+					type='analog'
+					series='th9000d'
+					link={`/products/analog/th9000d`}
 				/>
 				<Product
-					type='amateur'
+					type='analog'
 					series='th8600'
-					link={`/products/amateur/th8600`}
+					link={`/products/analog/th8600`}
 				/>
 				<Product
-					type='amateur'
+					type='analog'
+					series='tcf1'
+					link={`/products/analog/tcf1`}
+				/>
+				<Product
+					type='analog'
+					series='tc999'
+					link={`/products/analog/tc999`}
+				/>
+				<Product
+					type='analog'
 					series='thuv88'
-					link={`/products/amateur/thuv88`}
+					link={`/products/analog/thuv88`}
 				/>
 				<Product
-					type='amateur'
+					type='analog'
 					series='thuv99'
-					link={`/products/amateur/thuv99`}
-				/>
-				<Product
-					type='amateur'
-					series='md750'
-					link={`/products/amateur/md750`}
-				/>
-				<Product
-					type='amateur'
-					series='md380'
-					link={`/products/amateur/md380`}
-				/>
-				<Product
-					type='amateur'
-					series='md390'
-					link={`/products/amateur/md390`}
-				/>
-				<Product
-					type='amateur'
-					series='md390p'
-					link={`/products/amateur/md390p`}
+					link={`/products/analog/thuv99`}
 				/>
 			</li>
 		</>
 	);
 
 	const handleType = () => {
-		if (type === "professional") {
-			return <>{professional}</>;
-		} else if (type === "amateur") {
-			return <>{amateur}</>;
+		if (type === "DMR") {
+			return <>{DMR}</>;
+		} else if (type === "analog") {
+			return <>{analog}</>;
 		} else {
 			return (
 				<>
-					{professional}
-					{amateur}
+					{DMR}
+					{analog}
 				</>
 			);
 		}
 	};
 
 	const handleBreadcrumbs = () => {
-		if (type === "professional") {
+		if (type === "DMR") {
 			return [
 				{
 					link: "/products#",
 					name: TEXTS.breadcrumbs.products,
 				},
 				{
-					link: "/products/professional#",
-					name: TEXTS.breadcrumbs.professional,
+					link: "/products/DMR#",
+					name: TEXTS.breadcrumbs.DMR,
 				},
 			];
-		} else if (type === "amateur") {
+		} else if (type === "analog") {
 			return [
 				{
 					link: "/products#",
 					name: "Produkty",
 				},
 				{
-					link: "/products/amateur#",
-					name: TEXTS.breadcrumbs.amateur,
+					link: "/products/analog#",
+					name: TEXTS.breadcrumbs.analog,
 				},
 			];
 		} else {

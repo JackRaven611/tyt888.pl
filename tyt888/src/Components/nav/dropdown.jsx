@@ -16,17 +16,17 @@ export const Dropdown = ({ toggleBurgerNav }) => {
 			<div className='navButtonsDropdown'>
 				<Link
 					className=' navButtons'
-					to='/products/professional#'
+					to='/products/DMR#'
 					onClick={toggleBurgerNav}
 				>
-					{TEXTS.nav.categoryProfessional}
+					{TEXTS.nav.categoryDMR}
 				</Link>
 				<Link
 					className='navButtons'
-					to='/products/amateur#'
+					to='/products/analog#'
 					onClick={toggleBurgerNav}
 				>
-					{TEXTS.nav.categoryAmateur}
+					{TEXTS.nav.categoryanalog}
 				</Link>
 				<Link
 					className='navButtons'
