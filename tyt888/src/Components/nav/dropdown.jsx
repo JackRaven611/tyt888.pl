@@ -15,6 +15,13 @@ export const Dropdown = ({ toggleBurgerNav }) => {
 			</Link>
 			<div className='navButtonsDropdown'>
 				<Link
+					className='navButtons'
+					to='/products/analog#'
+					onClick={toggleBurgerNav}
+				>
+					{TEXTS.nav.categoryanalog}
+				</Link>
+				<Link
 					className=' navButtons'
 					to='/products/DMR#'
 					onClick={toggleBurgerNav}
@@ -23,17 +30,10 @@ export const Dropdown = ({ toggleBurgerNav }) => {
 				</Link>
 				<Link
 					className='navButtons'
-					to='/products/analog#'
+					to='/products/poc#'
 					onClick={toggleBurgerNav}
 				>
-					{TEXTS.nav.categoryanalog}
-				</Link>
-				<Link
-					className='navButtons'
-					to='/products/accessories#'
-					onClick={toggleBurgerNav}
-				>
-					{TEXTS.nav.categoryAccessories}
+					{TEXTS.nav.categoryPoc}
 				</Link>
 			</div>
 		</div>

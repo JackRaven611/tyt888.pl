@@ -35,6 +35,16 @@ export const AboutBoxStyled = styled.section`
 			font-weight: ${FONTSIZE.weight.medium};
 			text-align: left;
 		}
+
+		div {
+			width: 100%;
+			display: flex;
+			gap: 2.5%;
+			box-shadow: none;
+			img {
+				border-radius: 0.5rem;
+			}
+		}
 	}
 
 	@media screen and (max-width: 1300px) {

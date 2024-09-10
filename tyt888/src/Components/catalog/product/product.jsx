@@ -15,6 +15,9 @@ import th8600 from "../../../img/th8600.webp";
 import thuv88 from "../../../img/thuv88.webp";
 import md380 from "../../../img/mduv380.webp";
 import md390 from "../../../img/mduv390.webp";
+import ip66 from "../../../img/IP66.webp";
+import ip77 from "../../../img/IP77.webp";
+import ip398 from "../../../img/IP398.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -33,6 +36,9 @@ export const Product = ({ type, link, series }) => {
 		thuv88: thuv88,
 		md380: md380,
 		md390: md390,
+		ip66: ip66,
+		ip77: ip77,
+		ip398: ip398,
 	};
 
 	return (

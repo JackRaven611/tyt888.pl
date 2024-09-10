@@ -10,10 +10,10 @@ export const ImgFadeStyled = styled.div`
 	background-image: linear-gradient(
 		to bottom,
 		rgba(255, 0, 0, 0),
-		rgb(238, 238, 239, 0.5) 45%,
+		rgb(238, 238, 239, 0.5) 65%,
 		${COLORS.White} 90%
 	);
-	margin-top: -30rem;
+	margin-top: -26rem;
 
 	@media screen and (max-width: 900px) {
 		background-image: linear-gradient(

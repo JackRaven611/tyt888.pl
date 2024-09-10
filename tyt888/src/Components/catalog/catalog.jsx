@@ -97,16 +97,37 @@ export const Catalog = ({ type }) => {
 		</>
 	);
 
+	const poc = (
+		<>
+			<li className='headerWrapper'>
+				<h2>{TEXTS.products.poc.common.title}</h2>
+				<p>{TEXTS.products.poc.common.title}</p>
+			</li>
+			<li>
+				<Product type='poc' series='ip66' link={`/products/poc/ip66`} />
+				<Product type='poc' series='ip77' link={`/products/poc/ip77`} />
+				<Product
+					type='poc'
+					series='ip398'
+					link={`/products/poc/ip398`}
+				/>
+			</li>
+		</>
+	);
+
 	const handleType = () => {
 		if (type === "DMR") {
 			return <>{DMR}</>;
 		} else if (type === "analog") {
 			return <>{analog}</>;
+		} else if (type === "poc") {
+			return <>{poc}</>;
 		} else {
 			return (
 				<>
-					{DMR}
 					{analog}
+					{DMR}
+					{poc}
 				</>
 			);
 		}
@@ -133,6 +154,17 @@ export const Catalog = ({ type }) => {
 				{
 					link: "/products/analog#",
 					name: TEXTS.breadcrumbs.analog,
+				},
+			];
+		} else if (type === "poc") {
+			return [
+				{
+					link: "/products#",
+					name: "Produkty",
+				},
+				{
+					link: "/products/poc#",
+					name: TEXTS.breadcrumbs.poc,
 				},
 			];
 		} else {

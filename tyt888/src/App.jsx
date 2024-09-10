@@ -38,6 +38,10 @@ function App() {
 						path='/products/analog'
 						element={<Products type='analog' />}
 					></Route>
+					<Route
+						path='/products/poc'
+						element={<Products type='poc' />}
+					></Route>
 
 					<Route
 						path='/products/DMR/md9600'
@@ -88,6 +92,18 @@ function App() {
 						element={
 							<ProductPanel type='analog' series='th9000d' />
 						}
+					></Route>
+					<Route
+						path='/products/poc/ip66'
+						element={<ProductPanel type='poc' series='ip66' />}
+					></Route>
+					<Route
+						path='/products/poc/ip77'
+						element={<ProductPanel type='poc' series='ip77' />}
+					></Route>
+					<Route
+						path='/products/poc/ip398'
+						element={<ProductPanel type='poc' series='ip398' />}
 					></Route>
 
 					<Route path='/blog' element={<Blog />} />
