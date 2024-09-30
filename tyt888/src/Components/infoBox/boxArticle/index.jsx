@@ -4,7 +4,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
-export const BoxArticleStyled = styled.article`
+export const BoxArticleStyled = styled.a`
 	z-index: 2;
 	width: 31.6%;
 	height: auto;
@@ -12,6 +12,12 @@ export const BoxArticleStyled = styled.article`
 	background-color: ${COLORS.White};
 	overflow: hidden;
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
+	border-bottom: 0.2rem solid transparent;
+	transition: 0.2s;
+
+	&&:hover {
+		border-color: ${COLORS.mainOrange};
+	}
 
 	h3 {
 		padding: 2rem 2rem 1rem;
@@ -34,7 +40,7 @@ export const BoxArticleStyled = styled.article`
 		img {
 			width: 100%;
 			height: 20rem;
-			object-fit: cover;
+			object-fit: contain;
 		}
 	}
 

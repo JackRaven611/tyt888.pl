@@ -2,9 +2,9 @@ import { BoxArticleStyled } from ".";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
-export const BoxArticle = ({ imgUrl, articleText, articleTitle }) => {
+export const BoxArticle = ({ imgUrl, articleText, articleTitle, link }) => {
 	return (
-		<BoxArticleStyled>
+		<BoxArticleStyled href={link}>
 			<div className='infoWrapper'>
 				<img src={imgUrl} alt='article img' loading='lazy' />
 			</div>

@@ -16,7 +16,7 @@ export const ContactSectionStyled = styled.section`
 		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
 		display: flex;
 		flex-direction: column;
-		width: 80%;
+		width: 40%;
 		min-height: 30rem;
 		border-radius: 0.5rem;
 		overflow: hidden;
@@ -25,7 +25,7 @@ export const ContactSectionStyled = styled.section`
 
 	img {
 		width: 100%;
-		object-fit: cover;
+		object-fit: contain;
 		max-height: 20rem;
 	}
 

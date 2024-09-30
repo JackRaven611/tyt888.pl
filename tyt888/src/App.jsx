@@ -56,16 +56,20 @@ function App() {
 						element={<ProductPanel type='DMR' series='md680' />}
 					></Route>
 					<Route
-						path='/products/analog/md380'
+						path='/products/DMR/md380'
 						element={<ProductPanel type='DMR' series='md380' />}
 					></Route>
 					<Route
-						path='/products/analog/md390'
+						path='/products/DMR/md390'
 						element={<ProductPanel type='DMR' series='md390' />}
 					></Route>
 					<Route
 						path='/products/DMR/md390p'
 						element={<ProductPanel type='DMR' series='md390p' />}
+					></Route>
+					<Route
+						path='/products/DMR/md790'
+						element={<ProductPanel type='DMR' series='md790' />}
 					></Route>
 					<Route
 						path='/products/analog/tcf1'

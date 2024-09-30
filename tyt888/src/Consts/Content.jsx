@@ -44,15 +44,15 @@ export const TEXTS = {
 		header: "NIEZAWODNE ROZWIĄZANIA RADIOKOMUNIKACYJNE",
 		headerP:
 			"Autoryzowany dystrybutor i serwis radiotelefonów marki TYT w Polsce",
-		handmadeTitle: "LOREM IPSUM",
+		handmadeTitle: "Radiotelefony analogowe",
 		handmadeText:
-			"LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM",
-		designTitle: "LOREM IPSUM",
+			"Pomimo dynamicznego rozwoju cyfrowych standardów łączności w ostatnim czasie, łączność analogowa jest powszechna i nadal będzie często wykorzystywana. W wielu przypadkach zapewnia niezawodną komunikację przy niższym koszcie urządzeń.",
+		designTitle: "Radiotelefony cyfrowe DMR",
 		designText:
-			"LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM",
-		effectivenessTitle: "LOREM IPSUM",
+			"DMR jest standardem cyfrowej łaczności radiowej umożliwiającym wydzielenie na  jednym kanale o szerokości 12,5kHz dwóch kanałów wirtualnych przez podział czasowy i umożliwiającym np. prowadzenie jednocześnie dwóch niezależnych rozmów.",
+		effectivenessTitle: "Radiotelefony sieciowe PoC",
 		effectiveness:
-			"LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM",
+			"Rewolucja na rynku radiotelefonów. Radiotelefony sieciowe umożliwiają łączność z wykorzystaniem infrastruktury sieci komórkowej lub sieci bezprzewodowej WiFi. Dzięki takiemu medium, radiotelefony PoC umożliwiają łączność radiową w każdym miejscu na świecie, gdzie tylko zapewniony jest dostęp do sieci.",
 		aboutTitle: "O TYT Electronics",
 		aboutText:
 			"TYT Electronics Co. Ltd. istnieje od ponad 20 lat i obecnie jest jednym z największych producentów sprzętu radiokomunikacyjnego posiadającym sieć sprzedaży dealerskiej na wszystkich kontynentach. TYT w przeciwieństwie do wielu konkurencyjnych marek obecnych aktualnie na rynku nie jest jedynie marką handlową, a producentem rozwijającym własne rozwiązania radiokomunikacyjne i posiadającym własne linie produkcyjne. Główną misją marki jest dostarczanie na rynek wysokiej jakości, niezawodne, a także nowoczesne i innowacyjne rozwiązania w zakresie sprzętu radiokomunikacyjnego, ale jednocześnie w bardzo konkurencyjnej cenie. Firma osiąga swój cel mniej inwestując w reklamę, ale dzięki ugruntowanej od lat renomie, bardzo dobrych opiniach i atrakcyjnej cenie produktów znana jest i ceniona na całym świecie. Obecnie TYT produkuje pełną linię radiotelefonów analogowych cyfrowych oraz sieciowych (PoC), a także retransmitery (repeatery) oraz akcesoria dedykowane zarówno dla użytkowników sieci profesjonalnych (wojsko, służby ratunkowe, grupy poszukiwawcze, ochrona, transport, zakłady produkcyjne, instytucje i firmy sektora prywatnego), jak również dla użytkowników indywidualnych (w tym radiotelefony nie wymagające zawolenia) oraz krótkofalowców, użytkowników pasmach amatorskich.",
@@ -90,7 +90,8 @@ export const TEXTS = {
 		DMR: {
 			common: {
 				title: "RADIOTELEFONY DMR",
-				description: "",
+				description:
+					"DMR jest standardem cyfrowej łaczności radiowej umożliwiającym wydzielenie na  jednym kanale o szerokości 12,5kHz dwóch kanałów wirtualnych przez podział czasowy i umożliwiającym np. prowadzenie jednocześnie dwóch niezależnych rozmów. Radiotelefony DMR zapewniają wysoką jakość połączenia (bez szumów, zakłóceń itp.) oraz możliwość skutecznego szyfrowania łączności dla bezpieczeństwa naszych informacji.  Umożliwiają pracę zarówno w trybie rozmowy grupowej wielu osób (podobnie jak systemach analogowych), ale także tryb połączenia indywidualnego (Private Call, kiedy inni nie słyszą takiej rozmowy). Dla użytkowników dostępna jest też możliwość wymiany wiadomości tekstowych (SMS) drogą radiową, funkcje alarmowe i związane z zapewnieniem bezpieczeństwa,  lista kontaktów i zarządzanie użytkownikami, a nawet ich lokalizację GPS. Radiotelefony wyświetlają też ID lub nazwy użytkowów dla identyfikacji aktualnego rozmówcy. Ponadto standard DMR pozwala na  dłuższy czas pracy baterii radiotelefonu w stosunku do klasycznej łączności analogowej.",
 			},
 			md9600: {
 				title: "MD-9600",
@@ -171,58 +172,35 @@ export const TEXTS = {
 
 			md790: {
 				title: "MD-790",
-				description: "TYT MD-790",
+				description:
+					"Ręczny radiotelefon TYT MD-790 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-790 ułatwi w przyszłości migracje z systemu analogowemu na cyfrowy. Zapewnia pracę na łącznie 64 kanałach (16 kanałów w 4 strefach).",
 				linkV1Title: "Sklep",
-				linkV1: "",
+				linkV1: "https://www.ercomer.pl/pl/p/TYT-MD-790-UHF/3653",
 				functions: [
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
+					"Obsługa tonów CTCSS/DCS ",
+					"Możliwość zaprogramowania funkcji przycisków",
+					"Głosowe informacja dot. funkcji",
+					"Zgodność z protokołem ESTI TS 102 361-1, -2, -3",
+					"Możliwość aktualizowania oprogramowania radia",
+					"Ilość kanałów 64 (16 kanałów w 4 strefach)",
+					"Funkcja Lone Worker",
+					"Pojemność akumulatora 2800 mAh ładowany za pomocą ładowarki lub przez port USB-C",
+					"Programowanie za pośrednictwem komputera PC",
+					"Możliwość pracy w trybie cyfrowym lub analogowym",
+					"Możliwość zmiany poziomu mocy wyjściowej 5W/1W",
 				],
 				spec: [
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
-					"",
+					"Zakres częstotliwości: UHF: 400-470MHz",
+					"Moc wyjściowa max: 5W",
+					"Ilość kanałów: 64",
+					"Odstęp międzykanałowy: 12.5kHz",
+					"Napięcie robocze: 7.4V",
+					"Stabilność częstotliwości: +/- 1.0ppm",
+					"Zakres temperatur pracy: -30°C - +60°C",
+					"Impedancja anteny: 50Ω",
+					"Moc wyjściowa audio: 1000mW",
+					"Wymiary: 133x61x34mm",
+					"Waga: 209g",
 				],
 			},
 
@@ -387,7 +365,8 @@ export const TEXTS = {
 		analog: {
 			common: {
 				title: "RADIOTELEFONY ANALOGOWE",
-				description: "",
+				description:
+					"Pomimo dynamicznego rozwoju cyfrowych standardów łączności w ostatnim czasie, łączność analogowa jest powszechna i nadal będzie często wykorzystywana. W wielu przypadkach zapewnia niezawodną komunikację przy niższym koszcie urządzeń. Urządzenia marki TYT z tej grupy wyróżniają się na rynku nowoczesnym designem, bardzo dobrymi parametrami nadawczo-odbiorczymi i czystym sygnałem transmisji. Część modeli ma akumulatory o największej spotykanej na rynku pojemności, aż do 3600 mAh! Będzie to z pewnością bardzo istotny parametr dla wielu użytkowników przy wyborze radiotelefonów. Poszczególne modele różnią się głównie wielkością, mocą wyjściową i pojemnością akumulatora. Dstępne są modele jednopasmowe VHF lub UHF oraz modele dualband VHF+UHF. Wszystkie z nich mają z reguły ponad przeciętną funkcjonalność wśród konkurencyjnych modeli dostępnych na rynku.",
 			},
 
 			th9000d: {
@@ -548,7 +527,8 @@ export const TEXTS = {
 		poc: {
 			common: {
 				title: "RADIOTELEFONY POC",
-				description: "",
+				description:
+					"Rewolucja na rynku radiotelefonów. Radiotelefony sieciowe umożliwiają łączność z wykorzystaniem infrastruktury sieci komórkowej lub sieci bezprzewodowej WiFi. Dzięki takiemu medium, radiotelefony PoC umożliwiają łączność radiową w każdym miejscu na świecie, gdzie tylko zapewniony jest dostęp do sieci.Dla systemów PoC dostępne jest także oprogramowanie konsoli dyspozytorskiej - na komputer PC lub w wersji online. Dzięki niemu możesz zobaczyć pozycję użytkowników na mapie,  skutecznie zarządzać grupą osób i koordynować ich działania w terenie, zapisywać trasy, zarządzać łącznością. Doskonałe, nowoczesne i funkcjonalne rozwiązanie dla ochrony, służb, transportu, grup terenowych, ale także dużych zakładów przemysłowych, gdzie skutecznie rozwiązuje problemy z zasięgiem konwencjonalnych sieci radiowych.",
 			},
 			ip77: {
 				title: "IP-77",

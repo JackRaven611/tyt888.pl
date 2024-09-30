@@ -12,7 +12,7 @@ export const Catalog = ({ type }) => {
 		<>
 			<li className='headerWrapper'>
 				<h2>{TEXTS.products.DMR.common.title}</h2>
-				<p>{TEXTS.products.DMR.common.title}</p>
+				<p>{TEXTS.products.DMR.common.description}</p>
 			</li>
 			<li>
 				<Product
@@ -60,7 +60,7 @@ export const Catalog = ({ type }) => {
 		<>
 			<li className='headerWrapper'>
 				<h2>{TEXTS.products.analog.common.title}</h2>
-				<p>{TEXTS.products.analog.common.title}</p>
+				<p>{TEXTS.products.analog.common.description}</p>
 			</li>
 			<li>
 				<Product
@@ -101,7 +101,7 @@ export const Catalog = ({ type }) => {
 		<>
 			<li className='headerWrapper'>
 				<h2>{TEXTS.products.poc.common.title}</h2>
-				<p>{TEXTS.products.poc.common.title}</p>
+				<p>{TEXTS.products.poc.common.description}</p>
 			</li>
 			<li>
 				<Product type='poc' series='ip66' link={`/products/poc/ip66`} />
