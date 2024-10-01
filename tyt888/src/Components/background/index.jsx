@@ -46,15 +46,15 @@ export const BackgroundStyled = styled.div`
 		object-fit: cover;
 	}
 
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1360px) {
 		header {
 			width: 90%;
-			margin-top: -25rem;
+			margin-top: -15rem;
 			gap: 1rem;
 		}
 	}
 
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 1175px) {
 		header {
 			margin-top: -15rem;
 			gap: 0.5rem;
@@ -68,13 +68,31 @@ export const BackgroundStyled = styled.div`
 		}
 
 		img {
-			margin-top: 4.5rem;
+			margin-top: 0;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		header {
+			margin-top: -10rem;
 		}
 	}
 
 	@media screen and (max-width: 600px) {
 		header {
-			margin-top: -7rem;
+			margin-top: -5rem;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		header {
+			h1 {
+				font-size: ${FONTSIZE.h2Mobile};
+				line-height: 2rem;
+			}
+			h3 {
+				font-size: ${FONTSIZE.pMobile};
+			}
 		}
 	}
 `;

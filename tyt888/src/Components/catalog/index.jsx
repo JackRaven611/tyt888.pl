@@ -64,7 +64,7 @@ export const CatalogStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1360px) {
 		.headerWrapper {
 			h2 {
 				font-size: ${FONTSIZE.h2Mobile};

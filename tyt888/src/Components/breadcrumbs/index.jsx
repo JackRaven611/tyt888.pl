@@ -55,7 +55,7 @@ export const BreadcrumbsStyled = styled.div`
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1360px) {
 		ul {
 			width: 90%;
 		}

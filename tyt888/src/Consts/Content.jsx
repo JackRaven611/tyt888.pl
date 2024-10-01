@@ -83,7 +83,7 @@ export const TEXTS = {
 	products: {
 		common: {
 			linkTitle: "Sklep",
-			functionsTitle: "Funkcję",
+			functionsTitle: "Funkcje",
 			specTitle: "Specyfikacja techniczna",
 		},
 

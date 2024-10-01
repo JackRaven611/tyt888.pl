@@ -17,6 +17,12 @@ export const InfoBoxStyled = styled.section`
 		justify-content: center;
 	}
 
+	@media screen and (max-width: 1360px) {
+		div {
+			width: 90%;
+		}
+	}
+
 	@media screen and (max-width: 1300px) {
 		div {
 			flex-direction: column;

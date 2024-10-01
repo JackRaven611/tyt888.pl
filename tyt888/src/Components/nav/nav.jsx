@@ -22,7 +22,6 @@ export const Nav = () => {
 			<div className='wrapper'>
 				<Link className='homeButton' to='/#' onClick={toggleBurgerNav}>
 					<h1>{nav.brandName}</h1>
-					<p>{nav.homeBtnP}</p>
 				</Link>
 				<Hamburger className='hamburger' />
 				<ul className='desktopNav'>

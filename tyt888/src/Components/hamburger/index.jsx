@@ -14,7 +14,7 @@ export const HamburgerStyled = styled.div`
 	z-index: 10;
 	text-align: right;
 
-	@media screen and (min-width: 1300px) {
+	@media screen and (min-width: 1361px) {
 		display: none;
 
 		.burger:hover {

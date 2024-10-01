@@ -95,12 +95,10 @@ export const ContactSectionStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
-		margin: 0;
-
+	@media screen and (max-width: 1360px) {
 		article {
 			flex-direction: column;
-			width: 90%;
+			width: 65%;
 
 			div {
 				width: 100%;

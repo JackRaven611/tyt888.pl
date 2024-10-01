@@ -47,15 +47,15 @@ export const AboutBoxStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
-		margin: 0;
-
+	@media screen and (max-width: 1360px) {
 		div {
 			width: 90%;
 		}
 	}
 
 	@media screen and (max-width: 900px) {
+		margin: 0;
+
 		div {
 			h2 {
 				margin: 1rem;

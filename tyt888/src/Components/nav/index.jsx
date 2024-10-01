@@ -132,7 +132,7 @@ export const NavStyled = styled.nav`
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1360px) {
 		flex-wrap: wrap;
 
 		.wrapper {
@@ -159,7 +159,7 @@ export const NavStyled = styled.nav`
 				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkBlue + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 20rem;
+				margin-top: 12rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;

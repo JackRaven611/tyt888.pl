@@ -48,11 +48,7 @@ export const BoxArticleStyled = styled.a`
 		width: 45%;
 	}
 
-	@media screen and (max-width: 1300px) {
-		width: 100%;
-		min-width: 20rem;
-		margin: 0 0 3rem;
-
+	@media screen and (max-width: 1360px) {
 		h3 {
 			padding: 1rem;
 		}
@@ -60,6 +56,12 @@ export const BoxArticleStyled = styled.a`
 		p {
 			padding: 0 1.5rem 1.5rem;
 		}
+	}
+
+	@media screen and (max-width: 1300px) {
+		width: 100%;
+		min-width: 20rem;
+		margin: 0 0 3rem;
 
 		.infoWrapper {
 			height: 15rem;

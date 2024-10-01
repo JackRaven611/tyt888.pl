@@ -133,12 +133,13 @@ export const ProductPageStyled = styled.section`
 				flex-direction: column;
 				align-items: flex-start;
 				margin: 0;
-				.description {
+				li {
 					width: 100%;
 					height: 3.5rem;
 					display: flex;
 					align-items: center;
-					gap: 1rem;
+					text-align: left;
+					padding: 0.5rem 0 0.5rem;
 					border-bottom: solid 0.15rem ${COLORS.Gray};
 
 					h3 {
@@ -156,37 +157,16 @@ export const ProductPageStyled = styled.section`
 				}
 			}
 		}
-
-		.redConTitle {
-			font-weight: ${FONTSIZE.weight.bold};
-			font-size: ${FONTSIZE.a};
-			margin: 2rem 0 1rem;
-		}
-
-		.redCon {
-			display: flex;
-			width: 60%;
-			flex-direction: column;
-			align-items: center;
-			margin: 0;
-			li {
-				width: 100%;
-				height: 3.5rem;
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				border-bottom: solid 0.15rem ${COLORS.Gray};
-
-				p {
-					font-weight: ${FONTSIZE.weight.medium};
-					font-size: ${FONTSIZE.p};
-					text-align: left;
-				}
+	}
+	@media screen and (max-width: 1360px) {
+		.wrapper {
+			.selectorkWrapper {
+				width: 90%;
 			}
 		}
 	}
 
-	@media screen and (max-width: 1300px) {
+	@media screen and (max-width: 1200px) {
 		min-height: 50vh;
 		.wrapper {
 			width: 100%;
@@ -194,23 +174,6 @@ export const ProductPageStyled = styled.section`
 
 			.redConTitle {
 				font-size: ${FONTSIZE.h3Mobile};
-			}
-
-			.redCon {
-				width: 90%;
-				margin-bottom: 4rem;
-				li {
-					width: 100%;
-					height: 4.5rem;
-					display: flex;
-					align-items: center;
-					gap: 1rem;
-					border-bottom: solid 0.15rem ${COLORS.Gray};
-
-					p {
-						font-size: ${FONTSIZE.aMobile};
-					}
-				}
 			}
 
 			.infoWrapper {
@@ -233,9 +196,9 @@ export const ProductPageStyled = styled.section`
 				ul {
 					width: 100%;
 					margin: 1.5rem 0 0;
-					.description {
+					li {
 						width: 100%;
-						height: 4.5rem;
+						height: auto;
 
 						h3 {
 							font-size: ${FONTSIZE.pMobile};
@@ -260,6 +223,7 @@ export const ProductPageStyled = styled.section`
 
 				aside {
 					width: 100%;
+					min-height: 10rem;
 
 					h2 {
 						font-size: ${FONTSIZE.h2Mobile};
@@ -272,7 +236,13 @@ export const ProductPageStyled = styled.section`
 
 						p {
 							width: 100%;
+							min-height: 10rem;
 							font-size: ${FONTSIZE.pMobile};
+						}
+
+						.linkWrapper {
+							a {
+							}
 						}
 					}
 				}
@@ -292,6 +262,16 @@ export const ProductPageStyled = styled.section`
 
 					p {
 						font-size: ${FONTSIZE.pMobile};
+					}
+
+					.descriptionWrapper {
+						.linkWrapper {
+							a {
+								font-size: ${FONTSIZE.aMobile};
+								padding: 1rem;
+								min-width: 10rem;
+							}
+						}
 					}
 				}
 			}
