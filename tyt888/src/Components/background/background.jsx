@@ -1,7 +1,7 @@
 import { BackgroundStyled } from ".";
 import { ImgFadeStyled } from "../imgFade/index";
 import { TEXTS } from "../../Consts/Content";
-import foto10 from "../../img/TYT_foto10.webp";
+import foto10 from "../../img/x (44).webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

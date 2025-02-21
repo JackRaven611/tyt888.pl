@@ -29,8 +29,8 @@ export const BreadcrumbsStyled = styled.div`
 			}
 
 			img:hover {
-				filter: invert(29%) sepia(64%) saturate(7459%)
-					hue-rotate(350deg) brightness(97%) contrast(119%);
+				filter: invert(49%) sepia(33%) saturate(5783%)
+					hue-rotate(347deg) brightness(101%) contrast(101%);
 			}
 
 			div {

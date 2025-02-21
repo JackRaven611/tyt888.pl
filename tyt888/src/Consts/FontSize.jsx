@@ -2,7 +2,7 @@
 
 export const FONTSIZE = {
 	weight: { light: "300", medium: "500", bold: "700" },
-	p: "1rem",
+	p: "1.2rem",
 	pMobile: "1rem",
 	a: "1.4rem",
 	aMobile: "1.2rem",

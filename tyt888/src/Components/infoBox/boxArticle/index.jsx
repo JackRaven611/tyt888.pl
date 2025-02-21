@@ -11,12 +11,15 @@ export const BoxArticleStyled = styled.a`
 	border-radius: 0.5rem;
 	background-color: ${COLORS.White};
 	overflow: hidden;
-	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
 	border-bottom: 0.2rem solid transparent;
+	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
 	transition: 0.2s;
 
 	&&:hover {
 		border-color: ${COLORS.mainOrange};
+		img {
+			opacity: 90%;
+		}
 	}
 
 	h3 {

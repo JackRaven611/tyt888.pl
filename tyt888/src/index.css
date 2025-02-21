@@ -9,10 +9,16 @@
   text-decoration: none;
   color: #090C02;
   font-size: 1rem;
+
+  p{
+    text-align: justify;
+  };
 }
 
+
+
 body {
-  background-color: #FFFFFF;
+  background-color: #fdfdfd;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -106,11 +106,7 @@ export const Catalog = ({ type }) => {
 			<li>
 				<Product type='poc' series='ip66' link={`/products/poc/ip66`} />
 				<Product type='poc' series='ip77' link={`/products/poc/ip77`} />
-				<Product
-					type='poc'
-					series='ip398'
-					link={`/products/poc/ip398`}
-				/>
+				<Product type='poc' series='ip79' link={`/products/poc/ip79`} />
 			</li>
 		</>
 	);

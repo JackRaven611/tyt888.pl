@@ -52,10 +52,6 @@ export const NavStyled = styled.nav`
 				font-size: ${FONTSIZE.h1};
 				font-weight: ${FONTSIZE.weight.bold};
 			}
-			p {
-				font-size: ${FONTSIZE.p};
-				font-weight: ${FONTSIZE.weight.medium};
-			}
 		}
 
 		.homeButton:hover {

@@ -11,12 +11,11 @@ export const ProductStyled = styled.article`
 	display: flex;
 	flex-direction: column;
 	transition-duration: 0.2s;
+	background-color: ${COLORS.White};
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkBlue + "2d"};
-	border-bottom: solid 0.2rem transparent;
 
 	&&:hover {
 		color: ${COLORS.mainOrange};
-		border-color: ${COLORS.mainOrange};
 	}
 
 	a {
@@ -26,18 +25,24 @@ export const ProductStyled = styled.article`
 		font-weight: ${FONTSIZE.weight.medium};
 		text-transform: uppercase;
 		font-size: ${FONTSIZE.a};
+		border-bottom: solid 0.2rem transparent;
 	}
 
 	a:hover {
+		border-color: ${COLORS.mainOrange};
 		h3 {
 			color: ${COLORS.mainOrange};
+		}
+		img {
+			opacity: 90%;
 		}
 	}
 
 	img {
 		height: 27.5rem;
-
 		transition-duration: 0.2s;
+		object-fit: contain;
+		width: 100%;
 	}
 
 	.wrapper {

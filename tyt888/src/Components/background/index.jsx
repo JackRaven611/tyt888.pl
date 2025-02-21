@@ -20,7 +20,7 @@ export const BackgroundStyled = styled.div`
 		min-height: 7rem;
 		border-radius: 0.5rem;
 		z-index: 3;
-		margin-top: -5rem;
+		margin-top: -26rem;
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkBlue + "6d"};

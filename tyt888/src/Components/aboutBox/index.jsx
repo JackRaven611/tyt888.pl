@@ -19,6 +19,7 @@ export const AboutBoxStyled = styled.section`
 
 		img {
 			object-fit: cover;
+			object-position: 50% 40%;
 			width: 100%;
 			height: 20rem;
 		}
@@ -34,16 +35,6 @@ export const AboutBoxStyled = styled.section`
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
 			text-align: left;
-		}
-
-		div {
-			width: 100%;
-			display: flex;
-			gap: 2.5%;
-			box-shadow: none;
-			img {
-				border-radius: 0.5rem;
-			}
 		}
 	}
 

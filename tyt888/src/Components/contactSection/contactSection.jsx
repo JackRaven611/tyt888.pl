@@ -1,7 +1,7 @@
 import { ContactSectionStyled } from ".";
 import { Breadcrumbs } from "../breadcrumbs/breadcrumbs";
 import { TEXTS } from "../../Consts/Content";
-import foto1 from "../../img/TYT_foto1.webp";
+import foto1 from "../../img/x (36).webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

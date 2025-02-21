@@ -36,6 +36,7 @@ export const FooterStyled = styled.footer`
 			margin: 0;
 			width: 70%;
 			transition-duration: 0.2s;
+			text-align: center;
 		}
 	}
 
@@ -69,6 +70,7 @@ export const FooterStyled = styled.footer`
 				margin: 0.5rem 0;
 				font-size: ${FONTSIZE.p};
 				font-size: ${FONTSIZE.weight.medium};
+				text-align: center;
 			}
 		}
 	}

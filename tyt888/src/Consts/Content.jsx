@@ -548,17 +548,18 @@ export const TEXTS = {
 					"Akumulator 4200mAh",
 				],
 			},
-			ip398: {
-				title: "IP-398",
+			ip79: {
+				title: "IP-79",
 				description:
-					"Radiotelefon TYT IP-77 z wyświetlaczem, umożliwia łączność z wykorzystaniem infrastruktury sieci komórkowej. Dzięki takiemu medium, radiotelefony sieciowe umożliwiają łączność radiową w każdym miejscu na świecie, gdzie zapewniony jest dostęp do sieci. Radiotelefony posiadają wytrzymałą i kompaktową konstrukcję. Radiotelefony do pracy wymagają wykupienia licencji miesięcznej/rocznej lub dożywotniej (obsługi serwera komunikacyjnego) - aczkolwiek koszt obsługi jest relatywnie niewielki.",
+					"Radiotelefon TYT PILOT IP-79, hybrydowy Poc LTE i UHF o mocy 5W. Kompatybilny z każdym standardowym radiotelefonem pracującym w paśmie UHF, w tym również PMR446. Umożliwia łączność z jednoczesnym dostępem do infrastruktury sieci komórkowej i pracy analogowej UHF.",
 				linkV1Title: "Sklep",
-				linkV1: "https://www.ercomer.pl/pl/p/TYT-IP-398/3418",
+				linkV1: "https://www.ercomer.pl/pl/p/TYT-IP-79-hybrydowy-PoC-LTE-oraz-UHF-4W/3200",
 				functions: [
 					"Łączność przez sieć komórkową WCDMA/CDMA/GSM/LTE",
+					"Łączność analogową w paśmie UHF 400-470MHz",
 					"Kolorowy wyświetlacz LCD",
 					"Wbudowany GPS",
-					"Dedykowany przycisk „PTT”",
+					"Dwa niezależne przyciski przycisk „PTT”",
 				],
 			},
 			ip66: {

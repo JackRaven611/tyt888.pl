@@ -106,8 +106,8 @@ function App() {
 						element={<ProductPanel type='poc' series='ip77' />}
 					></Route>
 					<Route
-						path='/products/poc/ip398'
-						element={<ProductPanel type='poc' series='ip398' />}
+						path='/products/poc/ip79'
+						element={<ProductPanel type='poc' series='ip79' />}
 					></Route>
 
 					<Route path='/blog' element={<Blog />} />

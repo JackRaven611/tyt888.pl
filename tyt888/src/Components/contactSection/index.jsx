@@ -25,7 +25,7 @@ export const ContactSectionStyled = styled.section`
 
 	img {
 		width: 100%;
-		object-fit: contain;
+		object-fit: cover;
 		max-height: 20rem;
 	}
 
@@ -48,6 +48,7 @@ export const ContactSectionStyled = styled.section`
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			width: 80%;
 			margin-bottom: 2rem;
 			li {
 				display: flex;
@@ -60,6 +61,7 @@ export const ContactSectionStyled = styled.section`
 
 				h3 {
 					min-width: 14rem;
+					width: 50%;
 					font-size: ${FONTSIZE.h4};
 					font-weight: ${FONTSIZE.weight.bold};
 					margin-right: 2rem;
@@ -68,20 +70,23 @@ export const ContactSectionStyled = styled.section`
 				p {
 					font-size: ${FONTSIZE.p};
 					font-weight: ${FONTSIZE.weight.medium};
-					width: 11.5rem;
+					min-width: 11.5rem;
+					width: 50%;
 				}
 
 				a {
 					display: flex;
 					align-items: center;
 					transition-duration: 0.2s;
+					min-width: 11.5rem;
+					width: 50%;
 
 					p {
 						padding: 0.5rem 0;
 						text-align: left;
 						font-size: ${FONTSIZE.p};
 						font-weight: ${FONTSIZE.weight.medium};
-						width: 11.5rem;
+						width: 100%;
 						transition-duration: 0.2s;
 					}
 				}
@@ -98,7 +103,7 @@ export const ContactSectionStyled = styled.section`
 	@media screen and (max-width: 1360px) {
 		article {
 			flex-direction: column;
-			width: 65%;
+			width: 90%;
 
 			div {
 				width: 100%;
@@ -134,6 +139,7 @@ export const ContactSectionStyled = styled.section`
 					a {
 						p {
 							margin: 1rem 0 0;
+							font-size: ${FONTSIZE.pMobile};
 							text-align: center;
 						}
 					}
