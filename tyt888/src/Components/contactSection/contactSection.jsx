@@ -49,24 +49,10 @@ export const ContactSection = () => {
 								<h3>{common.phoneMainTitle}:</h3>
 								<p>{common.phoneMain}</p>
 							</li>
-							<li>
-								<h3>{common.hoursService}:</h3>
-								<p>{common.openService}</p>
-							</li>
+
 							<li>
 								<h3>{common.phoneServiceTitle}:</h3>
 								<p>{common.phoneService}</p>
-							</li>
-
-							<li>
-								<h3>{contact.formTitle}:</h3>
-								<a
-									href={contact.formLink}
-									target='_blank'
-									rel='noopener noreferrer'
-								>
-									<p>{contact.form}</p>
-								</a>
 							</li>
 						</ul>
 					</div>

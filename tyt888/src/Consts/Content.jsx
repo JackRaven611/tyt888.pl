@@ -24,7 +24,7 @@ export const TEXTS = {
 	},
 
 	nav: {
-		brandName: "TYT POLSKA",
+		brandName: "TYT-POLSKA",
 		homeBtnP: "Niezawodna radiokomunikacja",
 		navBtnProducts: "PRODUKTY",
 		navBtnContact: "KONTAKT",
@@ -39,7 +39,7 @@ export const TEXTS = {
 		titleStore: "Sklep Firmowy",
 		contactTitle: "Kontakt",
 		aboutTitle: "ERcomER",
-		about: "Bezpośredni importer i autoryzowany dystrybutor oraz serwis radiotelefonów marki TYT. Prowadzimy sprzedaż radiotelefonów oraz oferujemy pełne wsparcie w zakresie wyboru sprzętu i projektowania oraz kompleksowego wdrożenia sieci radiokomunikacyjnych - analogowych cyfrowych oraz rozwiązań sieciowych typu PoC.",
+		about: "Bezpośredni importer i autoryzowany dystrybutor oraz serwis radiotelefonów marki TYT. Prowadzimy sprzedaż radiotelefonów oraz oferujemy pełne wsparcie w zakresie wyboru sprzętu i projektowania oraz kompleksowego wdrożenia sieci radiokomunikacyjnych.",
 	},
 
 	main: {
@@ -99,8 +99,8 @@ export const TEXTS = {
 				title: "MD-9600",
 				description:
 					"TYT MD-9600 to nowoczesny cyfrowy radiotelefon DMR do zastosowań mobilnych i stacjonarnych. Wykorzystuje on technologię TDMA i jest w pełni zgodny z standardem DMR ESTI TS 102 361-1, -2, -3 oraz jest kompatybilny z systemem MotoTRBO Tier I i II. MD-9600 charakteryzuje się dużą mocą wyjściową 50W (VHF) lub 45W (UHF) oraz solidną i wytrzymałą obudowę, spełniającą wymogi standardu militarnego MIL-STD-810C/D/E. Po za trybem cyfrowym DMR umożliwia łacznośc w trybie analogowym, dzięki czemu możliwe jest używanie w sieciach radiowych opartych na tradycyjnych rozwiązaniach. ",
-				linkV1Title: "BEZ GPS",
-				linkV2Title: "GPS",
+				linkV1Title: "KUP MD-9600",
+				linkV2Title: "KUP MD-9600 GPS",
 				linkV1: "https://www.ercomer.pl/pl/p/Duobander-TYT-MD-9600/1873",
 				linkV2: "https://www.ercomer.pl/pl/p/Duobander-TYT-MD-9600-GPS/2011",
 				functions: [
@@ -140,8 +140,8 @@ export const TEXTS = {
 			md750: {
 				title: "MD-750",
 				description:
-					"Ręczny radiotelefon TYT MD-750 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II.",
-				linkV1Title: "Sklep",
+					"MD-750 to przenośny duobander przeznaczony do pracy w pasmach VHF i UHF z mocą 5W. Pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-750 ułatwi w przyszłości migracje z systemu analogowego na cyfrowy. ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach VHF i UHF. Czytelny wyświetlacz LCD może pracować w trybie VFO, jak również w trybie kanałowym. Model ten zapewnia także możliwość odbioru pasma radiowego UKF FM i możliwość pracy w trybie Dual Watch. Posiada wbudowaną latarkę diodową. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały",
+				linkV1Title: "KUP MD-750",
 				linkV1: "https://www.ercomer.pl/pl/p/Duobander-TYT-MD-750/3231",
 				functions: [
 					"Tryb pracy analogowy oraz cyfrowy DMR 2 slot",
@@ -175,8 +175,8 @@ export const TEXTS = {
 			md790: {
 				title: "MD-790",
 				description:
-					"Ręczny radiotelefon TYT MD-790 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-790 ułatwi w przyszłości migracje z systemu analogowemu na cyfrowy. Zapewnia pracę na łącznie 64 kanałach (16 kanałów w 4 strefach).",
-				linkV1Title: "Sklep",
+					"Ręczny radiotelefon TYT MD-790 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-790 ułatwi w przyszłości migracje z systemu analogowemu na cyfrowy. Nadajnik o standardowej pełnej mocy 5W. Akumulator o pojemność 2800 mAh ładowany może być za pomocą ładowarki lub przez port USB-C. Umożliwia pracę na łącznie 64 kanałach (16 kanałów w 4 strefach). MD-790 zapewnia bardzo korzystną relację jakości i możliwości do ceny.",
+				linkV1Title: "KUP MD-790",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-MD-790-UHF/3653",
 				functions: [
 					"Obsługa tonów CTCSS/DCS ",
@@ -209,8 +209,8 @@ export const TEXTS = {
 			md380: {
 				title: "MD-UV380",
 				description:
-					"Ręczny radiotelefon TYT MD-UV380 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II.",
-				linkV1Title: "Sklep",
+					"MD-UV380 to przenośny duobander przeznaczony do pracy w pasmach VHF i UHF z mocą 5W. Pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-UV380 ułatwi w przyszłości migracje z systemu analogowego na cyfrowy. Ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach VHF i UHF. Czytelny dwuwierszowy kolorowy wyświetlacz LCD ułatwia korzystanie z rozbudowanych funkcjonalności radiotelefonu. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały.",
+				linkV1Title: "KUP MD-UV380",
 				linkV1: "https://www.ercomer.pl/pl/p/Duobander-TYT-MD-UV380-SP-DMR/2158",
 				functions: [
 					"Obsługa wiadomości tekstowych",
@@ -247,10 +247,10 @@ export const TEXTS = {
 				],
 			},
 			md390: {
-				title: "MD-UV390",
+				title: "MD-UV390 GPS",
 				description:
-					"Ręczny radiotelefon TYT MD-UV390 wodoszczelny IP67 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II. Radiotelefon jest wodoszczelny i posiada wbudowany GPS.",
-				linkV1Title: "Sklep",
+					"MD-UV390 to przenośny, w pełni wodoszczelny z normą IP67 duobander przeznaczony do pracy w pasmach VHF i UHF z mocą 5W. Pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-UV380 ułatwi w przyszłości migracje z systemu analogowego na cyfrowy. Ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach VHF i UHF. Czytelny dwuwierszowy kolorowy wyświetlacz LCD ułatwia korzystanie z rozbudowanych funkcjonalności radiotelefonu. Model ten ma wbudowany moduł GPS. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały.",
+				linkV1Title: "KUP MD-UV390 GPS",
 				linkV1: "https://www.ercomer.pl/pl/p/Duobander-TYT-MD-UV390-IP67-GPS-SP-DMR/3256",
 				functions: [
 					"Obsługa wiadomości tekstowych",
@@ -291,8 +291,8 @@ export const TEXTS = {
 			md390p: {
 				title: "MD-UV390 PLUS GPS",
 				description:
-					"Profesjonalny, wodoszczelny IP67, dwu zakresowy cyfrowy radiotelefon TYT MD-UV390 PLUS, pracujący w standardzie cyfrowym DMR oraz w standardowym trybie analogowym w pełnym zakresie pasm VHF i UHF. Akumulator 3600mAh ładowany przez USB-C! Nadajnik dużej mocy 10W! Kompatybilny z szyfrowaniem Motoroli ARC4!",
-				linkV1Title: "Sklep",
+					"MD-UV390 to przenośny, w pełni wodoszczelny z normą IP67 duobander przeznaczony do pracy w pasmach VHF i UHF z dużą mocą nadajnika 10W. Pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-UV380 ułatwi w przyszłości migracje z systemu analogowego na cyfrowy. Ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach VHF i UHF. Czytelny dwuwierszowy kolorowy wyświetlacz LCD ułatwia korzystanie z rozbudowanych funkcjonalności radiotelefonu. Model ten ma wbudowany moduł GPS. Posiada wyjątkowo duży akumulator o pojemności 3600mAh, z możliwością ładowania przez port USB-C. W trybie szyfrowania obsługuje także ARC4, co powoduje że jest w pełni kompatybilny ze standardowym szyfrowaniem używanym w radiotelefonach marki Motorola. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały.",
+				linkV1Title: "KUP MD-UV390 PLUS GPS",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-MD-UV390-GPS-PLUS-IP67-10W-ARC4-PRO/3625",
 				functions: [
 					"Obsługa wiadomości tekstowych",
@@ -332,9 +332,9 @@ export const TEXTS = {
 			md680: {
 				title: "MD-680",
 				description:
-					"Ręczny radiotelefon TYT MD-680 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-680 ułatwi w przyszłości migracje z systemu analogowemu na cyfrowy. MD-680 posiada wodoodporną obudowę spełniającą normę IP67, dzięki czemu radiotelefon wytrzymuje zanurzenie w wodzie do 30 minut na głębokość 1m.",
-				linkV1Title: "VHF",
-				linkV2Title: "UHF",
+					"Ręczny radiotelefon TYT MD-680 pracuje w trybie cyfrowym wykorzystującym technologię TDMA i jest w pełni zgodny ze standardem DMR, kompatybilny z MotoTRBO Tier I i II (pracuje z wykorzystaniem obu slotów). Dzięki możliwości pracy również w trybie analogowym, zastosowanie radiotelefonu MD-680 ułatwi w przyszłości migracje z systemu analogowemu na cyfrowy. MD-680 posiada bardzo wytrzymałą i wodoodporną obudowę spełniającą normę IP67, dzięki czemu radiotelefon wytrzymuje zanurzenie w wodzie do 30 minut na głębokość 1m. Wysoka moc nadajnika 10W zapewnia większy zasięg radiotelefonu w stosunku do konkurencyjnych modeli z tego segmentu.",
+				linkV1Title: "KUP MD-680 VHF",
+				linkV2Title: "KUP MD-680 UHF",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-MD-680-Dual-10W-IP67-VHF/2058",
 				linkV2: "https://www.ercomer.pl/pl/p/TYT-MD-680-Dual-10W-IP67-UHF/2007",
 				functions: [
@@ -374,9 +374,9 @@ export const TEXTS = {
 			th9000d: {
 				title: "TH-9000D",
 				description:
-					"TH-9000D to mobilny jedno zakresowy radiotelefon przewoźny dużej mocy (model VHF: 60W, model UHF: 45W).",
-				linkV1Title: "VHF",
-				linkV2Title: "UHF",
+					"TH-9000D to mobilny jedno zakresowy radiotelefon przewoźny dużej mocy (model VHF: 60W, model UHF: 45W). TH-9000D to radiotelefon pracujący w konwencjonalnym trybie analogowym. Dostępna jest zarówno wersja na pasmo VHF, jak również pasmo UHF. Czytelny, podświetlany wyświetlacz zapewnia wygodną obsługę. Niewielkie rozmiary pozwalają na instalację radiotelefonu TH-9000D w samochodach oraz jako urządzenie stacjonarne. Radiotelefon ma szereg przydatnych funkcji jak np. Scrambler, Compander wyśwtlanie identyfikatora w trybie ANI-ID, skanowanie, obsługę tonów (w tym tryby 2-Tone i 5-Tone), zmiana poziomu mocy nadajnika oraz wiele innych. Umożliwia także zarówno pracę w trybie VFO (częstotliwości), jak również w trybie zaprogramowanych pamięci (wyświetla numer kanału). Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest czysty i zrozumiały.",
+				linkV1Title: "KUP TH-9000D VHF",
+				linkV2Title: "KUP TH-9000D UHF",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-TH-9000D-VHF/1484",
 				linkV2: "https://www.ercomer.pl/pl/p/TYT-TH-9000D-UHF/1485",
 				functions: [
@@ -409,8 +409,8 @@ export const TEXTS = {
 			th8600: {
 				title: "TH-8600",
 				description:
-					"TH-7800 to niewielki mobilny duobander przeznaczony do pracy na amatorskich pasmach 2m i 70cm z mocą 25W/20W.",
-				linkV1Title: "Sklep",
+					"TH-8600 to niewielki mobilny duobander przeznaczony do pracy w pasmach VHF i UHF z mocą 25W/20W. TH-8600 to radiotelefon pracujący w konwencjonalnym trybie analogowym. TH-8600 ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach. Czytelny, podświetlany wyświetlacz zapewnia wygodną obsługę. Niewielkie rozmiary pozwalają na instalację radiotelefonu TH-9000D w samochodach oraz jako urządzenie stacjonarne. Radiotelefon dostępny jest zarówno w wersji standardowej, jak i wodoszczelnej (IP67). Wysokiej jakości wbudowany głośnik powodują że dźwięk jest czysty i zrozumiały.",
+				linkV1Title: "KUP TH-8600",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-TH-8600-IP54/1847",
 				functions: [
 					"Wyświetlane dwa VFO",
@@ -432,10 +432,10 @@ export const TEXTS = {
 				],
 			},
 			tcf1: {
-				title: "TC-F1 ",
+				title: "TC-F1",
 				description:
-					"Prosty i wytrzymały radiotelefon na pasmo 70cm z pojemnym akumulatorem 2800mAh.",
-				linkV1Title: "Sklep",
+					"Prosty i wytrzymały radiotelefon na pasmo UHF z pojemnym akumulatorem 2800mAh. TC-F1 to radiotelefon pracujący w konwencjonalnym trybie analogowym. Radiotelefon świetnie sprawdzi się w typowych zastosowaniach wymagających prostej, ale niezawodnej komunikacji. Odpowiedni kształt i teksturowana obudowa poprawia ergonomię chwytu. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały. W zestawie fabrycznym znajduje się ładowarka biurkowa. ",
+				linkV1Title: "KUP TC-F1",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-TC-F1/2249",
 				functions: [
 					"Moc wyjściowa 5W",
@@ -449,8 +449,8 @@ export const TEXTS = {
 			tc999: {
 				title: "TC-999",
 				description:
-					"TYT TC-999 na pasmo PMR446 to analogowy radiotelefon przeznaczony do zastosowań profesjonalnych, pracujący w paśmie PMR446 nie wymagającym zezwolenia. Najnowsza wersja produkcyjna - nowy firmware i możliwość ładowania akumulatora przez port USB-C! (Po modyfikacji software nadajnik osiąga moc 2W).",
-				linkV1Title: "Sklep",
+					"TYT TC-999 to analogowy radiotelefon przeznaczony do zastosowań profesjonalnych, pracujący w paśmie PMR446 nie wymagającym zezwolenia. Zapewnia bardzo dobre parametry nadawczo-odbiorcze, przewyższające konkurencyjne urządzenia w tej klasie. Możliwość ładowania akumulatora przez port USB jest także niezwykle wygodnym rozwiązaniem. Radiotelefon świetnie sprawdzi się w typowych zastosowaniach wymagających prostej, ale niezawodnej komunikacji. Odpowiedni kształt i teksturowana obudowa poprawia ergonomię chwytu. Wysokiej jakości wbudowany głośnik powoduje że dźwięk jest wyjątkowo czysty i zrozumiały. Maksymalna moc nadajnika w drodze serwisowej może zostać odblokowana do 2-2.5W (radiotelefon wówczas nie spełni już wymagań Ustawy dla pracy bez zezwolenia).",
+				linkV1Title: "KUP TC-999",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-TC-999-USB-C-PMR-446/3517",
 				functions: [
 					"Obsługa tonów CTCSS/DCS",
@@ -464,15 +464,15 @@ export const TEXTS = {
 				spec: [
 					"Zakres częstotliwości: (446.00625-446.09375MHz)",
 					"Ilość kanałów: 16 ",
-					"Akumulator 1200mAh (Li-ION) ładowany przez USB-C",
+					"Akumulator 1200mAh (Li-ION) ładowany przez USB",
 					"Moc wyjściowa audio 1W",
 				],
 			},
 			thuv88: {
 				title: "TH-UV88",
 				description:
-					"Ręczny radiotelefon TYT TH-UV88 PRO pracujący w pełnym paśmie VHF +UHF o mocy 5W, szyfrowanie głosu - Scrambler, radio FM: 66-108MHz, Ekrany LCD z matrycą punktową ",
-				linkV1Title: "Sklep",
+					"TH-UV88 to przenośny duobander przeznaczony do pracy w pasmach VHF i UHF z mocą 5W. TH-UV88 to radiotelefon pracujący w konwencjonalnym trybie analogowym. TH-UV88 ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach. Zapewnia również możliwość odbioru pasma radiowego UKF FM, funkcję skanowania kanałów, Dual Watch i posiada wbudowaną latarkę diodową. Czytelny, podświetlany dwuwierszowy wyświetlacz z matrycą punktową zapewnia wygodną obsługę. Wysokiej jakości wbudowany głośnik powodują że dźwięk jest czysty i zrozumiały. TH-UV88 zapewnia bardzo korzystną relację jakości i możliwości do ceny.",
+				linkV1Title: "KUP TH-UV88",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-TH-UV88-PRO/3383",
 				functions: [
 					"Podwójny odbiorniki VHF/UHF",
@@ -502,8 +502,8 @@ export const TEXTS = {
 			thuv99: {
 				title: "TH-UV99",
 				description:
-					"Ręczny radiotelefon TYT TH-UV99 IP68 pracujący w pasmach amatorskich 2m/70cm o mocy 10W z akumulatorem 3600mAh ładowanie USB-C, szyfrowanie głosu - Scrambler, radio FM: 66-108MHz, ekran LCD z matrycą punktową ",
-				linkV1Title: "Sklep",
+					"TH-UV99 to przenośny, w pełni wodoszczelny z normą IP68 duobander przeznaczony do pracy w pasmach VHF i UHF z dużą mocą nadajnika 10W. TH-UV88 to radiotelefon pracujący w konwencjonalnym trybie analogowym. TH-UV88 ma duże możliwości dostosowywania do potrzeb użytkownika dzięki pracy w obu pasmach. Możliwość ładowania akumulatora przez port USB-C w tym modelu jest także niezwykle wygodnym rozwiązaniem. Akumulator ma wyjątkowo dużą pojemność, aż 3600mAh. TH-UV99 zapewnia również możliwość odbioru pasma radiowego UKF FM, funkcję skanowania kanałów, Dual Watch i posiada wbudowaną latarkę diodową. Czytelny, podświetlany dwuwierszowy wyświetlacz z matrycą punktową zapewnia wygodną obsługę. Wysokiej jakości wbudowany głośnik powodują że dźwięk jest czysty i zrozumiały.",
+				linkV1Title: "KUP TH-UV99",
 				linkV1: "https://ercomerpl.shoparena.pl/pl_PL/p/TYT-TH-UV99-PRO-3600mAh/3629?preview=true",
 				functions: [
 					"Pasma VHF + UHF",
@@ -536,7 +536,7 @@ export const TEXTS = {
 				title: "IP-77",
 				description:
 					"Radiotelefon TYT IP-77 z wyświetlaczem, umożliwia łączność z wykorzystaniem infrastruktury sieci komórkowej. Dzięki takiemu medium, radiotelefony sieciowe umożliwiają łączność radiową w każdym miejscu na świecie, gdzie zapewniony jest dostęp do sieci. Radiotelefony posiadają wytrzymałą i kompaktową konstrukcję. Radiotelefony do pracy wymagają wykupienia licencji miesięcznej/rocznej lub dożywotniej (obsługi serwera komunikacyjnego) - aczkolwiek koszt obsługi jest relatywnie niewielki.",
-				linkV1Title: "Sklep",
+				linkV1Title: "KUP IP-77",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-IP-77/2813",
 				functions: [
 					"Łączność przez sieć komórkową WCDMA/CDMA/GSM/LTE ",
@@ -551,8 +551,8 @@ export const TEXTS = {
 			ip79: {
 				title: "IP-79",
 				description:
-					"Radiotelefon TYT PILOT IP-79, hybrydowy Poc LTE i UHF o mocy 5W. Kompatybilny z każdym standardowym radiotelefonem pracującym w paśmie UHF, w tym również PMR446. Umożliwia łączność z jednoczesnym dostępem do infrastruktury sieci komórkowej i pracy analogowej UHF.",
-				linkV1Title: "Sklep",
+					"IP-79 to hybrydowy radiotelefon umożliwiający pracę zarówno w trybie sieciowym POC, jak również w standardowym analogowym trybie konwencjonalnym w paśmie UHF. W paśmie UHF zapewnia pełną moc nadajnika 5W. Kompatybilny jest z każdym standardowym analogowym radiotelefonem pracującym w paśmie UHF, w tym również PMR446. Umożliwia łączność z jednoczesnym dostępem do infrastruktury sieci komórkowej i pracy analogowej UHF. W trybie sieciowym POC umożliwia łączność z wykorzystaniem infrastruktury sieci komórkowej. Dzięki takiemu medium, radiotelefony sieciowe umożliwiają łączność radiową w każdym miejscu na świecie, gdzie zapewniony jest dostęp do sieci. Radiotelefony posiadają wytrzymałą i kompaktową konstrukcję. Do pracy w trybie sieciowym radiotelefony wymagają wykupienia licencji miesięcznej/rocznej lub dożywotniej obsługi serwera komunikacyjnego - aczkolwiek koszt ich obsługi jest relatywnie niewielki.",
+				linkV1Title: "KUP IP-79",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-IP-79-hybrydowy-PoC-LTE-oraz-UHF-4W/3200",
 				functions: [
 					"Łączność przez sieć komórkową WCDMA/CDMA/GSM/LTE",
@@ -566,7 +566,7 @@ export const TEXTS = {
 				title: "IP-66",
 				description:
 					"Radiotelefon TYT IP-66 umożliwia globalną łączność z wykorzystaniem infrastruktury sieci komórkowej. Dzięki takiemu medium, radiotelefony sieciowe umożliwiają łączność radiową w każdym miejscu na świecie, gdzie zapewniony jest dostęp do sieci. Radiotelefony posiadają wytrzymałą i kompaktową konstrukcję. Radiotelefony do pracy wymagają wykupienia licencji miesięcznej/rocznej lub dożywotniej (obsługi serwera komunikacyjnego) - aczkolwiek koszt obsługi jest relatywnie niewielki.",
-				linkV1Title: "Sklep",
+				linkV1Title: "KUP IP-66",
 				linkV1: "https://www.ercomer.pl/pl/p/TYT-IP-66-Mandown/3467",
 				functions: [
 					"Łączność przez sieć komórkową WCDMA/CDMA/GSM/LTE ",
